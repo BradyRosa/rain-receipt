@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  background: #eef5f8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  color: #173153;
+  background:
+    radial-gradient(circle at 18% 0%, rgba(245, 197, 66, 0.2), transparent 28rem),
+    linear-gradient(135deg, #e5f2f8 0%, #f8fbfc 42%, #e8eef4 100%);
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button:focus-visible {
+  outline: 3px solid rgba(0, 82, 255, 0.45);
+  outline-offset: 3px;
+}
+
+.rain-glass {
+  background-image:
+    linear-gradient(115deg, rgba(255,255,255,0.8), rgba(255,255,255,0.36)),
+    repeating-linear-gradient(100deg, rgba(0,82,255,0.11) 0 1px, transparent 1px 19px),
+    radial-gradient(circle at 25% 20%, rgba(255,255,255,0.74), transparent 15rem);
+}
+
+.receipt-edge {
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10px), 96% 100%, 92% calc(100% - 10px), 88% 100%, 84% calc(100% - 10px), 80% 100%, 76% calc(100% - 10px), 72% 100%, 68% calc(100% - 10px), 64% 100%, 60% calc(100% - 10px), 56% 100%, 52% calc(100% - 10px), 48% 100%, 44% calc(100% - 10px), 40% 100%, 36% calc(100% - 10px), 32% 100%, 28% calc(100% - 10px), 24% 100%, 20% calc(100% - 10px), 16% 100%, 12% calc(100% - 10px), 8% 100%, 4% calc(100% - 10px), 0 100%);
+}

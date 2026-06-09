@@ -1,0 +1,13 @@
+import type { Address, Hex } from "viem";
+
+export const RAIN_RECEIPT_CONTRACT_ADDRESS = "0x392ba7057553C0efd39f2Af104b644f4078700ED" as Address;
+
+export const BASE_APP_ID = "6a27797abb2f100a814589d6";
+
+export const TALENTAPP_PROJECT_VERIFICATION =
+  "1423c9986a8510d542e651991474c1812aa1e5b1ebc102983d7be02c1c0a2aaf635f1274fd9fee49f082c0b927dc57ed6d33b68693f6a46bee34f6c92621aa30";
+
+export const ERC_8021_DATA_SUFFIX = "0x" as Hex;
+
+export const isContractConfigured = RAIN_RECEIPT_CONTRACT_ADDRESS !== "0x0000000000000000000000000000000000000000";
+export const isAttributionConfigured = ERC_8021_DATA_SUFFIX !== "0x";
