@@ -13,7 +13,7 @@ import {
 } from "wagmi";
 import { base } from "wagmi/chains";
 import { rainReceiptAbi } from "@/lib/abi";
-import { ERC_8021_DATA_SUFFIX, RAIN_RECEIPT_CONTRACT_ADDRESS, isAttributionConfigured, isContractConfigured } from "@/lib/constants";
+import { ERC_8021_DATA_SUFFIX, RAIN_RECEIPT_CONTRACT_ADDRESS, isContractConfigured } from "@/lib/constants";
 
 type ReceiptAction = {
   key: "drizzle" | "umbrella" | "clear";
@@ -159,7 +159,7 @@ export default function Home() {
       setActivity("Choose a wallet to continue.");
       return;
     }
-    if (!isContractConfigured || !isAttributionConfigured) {
+    if (!isContractConfigured) {
       setActivity("Setup pending.");
       setSafeError("This app is waiting for final onchain setup.");
       return;
@@ -191,7 +191,7 @@ export default function Home() {
 
   const statusText = isConnected ? "Connected" : "Disconnected";
   const lastTxText = hash ? compactHex(hash, "No transaction yet") : "No transaction yet";
-  const busy = isWriting || wait.status === "pending";
+  const busy = isWriting || (Boolean(hash) && wait.status === "pending");
 
   return (
     <main className="min-h-screen overflow-hidden px-4 py-5 text-ink sm:px-6 lg:px-8">
@@ -314,7 +314,7 @@ export default function Home() {
               {safeError ? (
                 <div className="rounded-[8px] border border-[#f2d7d5] bg-[#fff3f2] px-3 py-2 text-sm font-bold text-[#9a382f]">{safeError}</div>
               ) : null}
-              {!isContractConfigured || !isAttributionConfigured ? (
+              {!isContractConfigured ? (
                 <div className="rounded-[8px] border border-[#d3e0ff] bg-[#eef4ff] px-3 py-2 text-sm font-bold text-base">
                   Final onchain setup is pending.
                 </div>
