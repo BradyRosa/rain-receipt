@@ -95,3 +95,10 @@ Prefer clear commit messages that describe the reason for each change.
 Before submitting changes, review the modified files and remove any temporary local files.
 
 ## Suggested Workflow
+
+1. Clone the repository.
+2. Create a new branch for your work.
+3. Make focused changes.
+4. Test or verify the changes using the appropriate project tools.
+5. Commit the changes with a clear message.
+6. Push the branch and open a review if applicable.
