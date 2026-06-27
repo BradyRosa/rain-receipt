@@ -110,3 +110,9 @@ The exact structure of `rain-receipt` may evolve.
 Common directories and files may include:
 
 - Source code files
+- Configuration files
+- Documentation
+- Tests
+- Build or tooling files
+
+Use the repository contents as the source of truth.
