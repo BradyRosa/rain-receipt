@@ -18,3 +18,11 @@ Because the repository details may change over time, refer to the source tree fo
 - Public repository URL available for cloning and review.
 - Simple project structure suitable for continued development.
 - README organized for setup, usage, and maintenance notes.
+
+## Repository
+
+GitHub:
+
+https://github.com/BradyRosa/rain-receipt.git
+
+Clone URL:
