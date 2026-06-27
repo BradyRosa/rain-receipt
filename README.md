@@ -124,3 +124,9 @@ Contributions should preserve the project name and existing repository history.
 When adding new functionality, include documentation where it helps future maintainers.
 
 When changing behavior, describe the change clearly in the commit or review notes.
+
+## Maintenance
+
+Keep the README accurate as the project grows.
+
+Remove outdated setup instructions when tools or dependencies change.
