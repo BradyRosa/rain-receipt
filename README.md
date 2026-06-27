@@ -40,3 +40,9 @@ git clone https://github.com/BradyRosa/rain-receipt.git
 Then move into the project directory:
 
 ```sh
+cd rain-receipt
+```
+
+Review the files in the repository to determine the current project structure and available commands.
+
+## Setup
