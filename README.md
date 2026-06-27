@@ -61,3 +61,9 @@ After cloning the repository, check for project-specific setup files such as:
 Install dependencies using the tooling indicated by the files present in the repository.
 
 If no dependency file is present, the project may not require an installation step yet.
+
+## Usage
+
+Start by reviewing the main source files and any scripts included in the repository.
+
+If the project includes a documented run command, use that command from the repository root.
