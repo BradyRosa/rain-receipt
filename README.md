@@ -130,3 +130,11 @@ When changing behavior, describe the change clearly in the commit or review note
 Keep the README accurate as the project grows.
 
 Remove outdated setup instructions when tools or dependencies change.
+
+Add examples only when they reflect tested project behavior.
+
+## License
+
+No license information was provided in the original README.
+
+If a license file is added to the repository, refer to that file for the project license terms.
