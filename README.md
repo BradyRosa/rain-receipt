@@ -116,3 +116,11 @@ Common directories and files may include:
 - Build or tooling files
 
 Use the repository contents as the source of truth.
+
+## Contributing
+
+Contributions should preserve the project name and existing repository history.
+
+When adding new functionality, include documentation where it helps future maintainers.
+
+When changing behavior, describe the change clearly in the commit or review notes.
