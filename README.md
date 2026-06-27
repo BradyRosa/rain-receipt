@@ -102,3 +102,11 @@ Before submitting changes, review the modified files and remove any temporary lo
 4. Test or verify the changes using the appropriate project tools.
 5. Commit the changes with a clear message.
 6. Push the branch and open a review if applicable.
+
+## Project Structure
+
+The exact structure of `rain-receipt` may evolve.
+
+Common directories and files may include:
+
+- Source code files
