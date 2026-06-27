@@ -46,3 +46,11 @@ cd rain-receipt
 Review the files in the repository to determine the current project structure and available commands.
 
 ## Setup
+
+After cloning the repository, check for project-specific setup files such as:
+
+- `package.json`
+- `requirements.txt`
+- `pyproject.toml`
+- `Cargo.toml`
+- `go.mod`
