@@ -26,3 +26,9 @@ GitHub:
 https://github.com/BradyRosa/rain-receipt.git
 
 Clone URL:
+
+`https://github.com/BradyRosa/rain-receipt.git`
+
+## Getting Started
+
+To work with the project locally, first clone the repository:
