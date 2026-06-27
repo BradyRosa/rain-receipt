@@ -89,3 +89,9 @@ find . -maxdepth 2 -type f
 Keep changes focused and easy to review.
 
 Update this README when setup steps, usage instructions, or project behavior changes.
+
+Prefer clear commit messages that describe the reason for each change.
+
+Before submitting changes, review the modified files and remove any temporary local files.
+
+## Suggested Workflow
