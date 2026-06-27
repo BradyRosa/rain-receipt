@@ -67,3 +67,11 @@ If no dependency file is present, the project may not require an installation st
 Start by reviewing the main source files and any scripts included in the repository.
 
 If the project includes a documented run command, use that command from the repository root.
+
+If no run command is documented yet, inspect the project files to identify the intended entry point.
+
+Useful commands while exploring the repository include:
+
+```sh
+git status
+```
