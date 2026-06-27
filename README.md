@@ -32,3 +32,11 @@ Clone URL:
 ## Getting Started
 
 To work with the project locally, first clone the repository:
+
+```sh
+git clone https://github.com/BradyRosa/rain-receipt.git
+```
+
+Then move into the project directory:
+
+```sh
