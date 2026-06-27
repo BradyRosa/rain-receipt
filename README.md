@@ -82,3 +82,10 @@ git log --oneline
 
 ```sh
 find . -maxdepth 2 -type f
+```
+
+## Development Notes
+
+Keep changes focused and easy to review.
+
+Update this README when setup steps, usage instructions, or project behavior changes.
