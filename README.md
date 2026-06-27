@@ -75,3 +75,10 @@ Useful commands while exploring the repository include:
 ```sh
 git status
 ```
+
+```sh
+git log --oneline
+```
+
+```sh
+find . -maxdepth 2 -type f
