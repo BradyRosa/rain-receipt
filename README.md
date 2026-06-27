@@ -54,3 +54,10 @@ After cloning the repository, check for project-specific setup files such as:
 - `pyproject.toml`
 - `Cargo.toml`
 - `go.mod`
+- `Makefile`
+- `.env.example`
+- Documentation files in a `docs` directory
+
+Install dependencies using the tooling indicated by the files present in the repository.
+
+If no dependency file is present, the project may not require an installation step yet.
