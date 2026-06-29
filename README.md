@@ -14,3 +14,10 @@ The purpose of this README is to provide a clear starting point for anyone cloni
 Because the implementation may change over time, the files in the repository should be treated as the source of truth for current behavior, dependencies, and available commands.
 
 ## Features
+
+- Source code maintained under the `rain-receipt` project name.
+- Public repository available for cloning and review.
+- Practical structure for ongoing development and maintenance.
+- README organized around setup, usage, contribution, and maintenance guidance.
+
+## Repository
