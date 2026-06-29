@@ -30,3 +30,11 @@ Clone URL:
 
 ```sh
 https://github.com/BradyRosa/rain-receipt.git
+```
+
+## Getting Started
+
+Clone the repository to your local machine:
+
+```sh
+git clone https://github.com/BradyRosa/rain-receipt.git
