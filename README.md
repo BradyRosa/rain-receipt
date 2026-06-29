@@ -133,3 +133,11 @@ Depending on the current implementation, the repository may include:
 Use the current repository contents as the authoritative reference for project structure.
 
 ## Contributing
+
+Contributions should preserve the existing project identity and repository history.
+
+When adding new functionality, include documentation when it helps future maintainers understand the change.
+
+When changing behavior, describe the change clearly in commit messages or review notes.
+
+Before submitting changes, verify that the project still works according to the available setup and usage instructions.
