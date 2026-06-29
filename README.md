@@ -141,3 +141,11 @@ When adding new functionality, include documentation when it helps future mainta
 When changing behavior, describe the change clearly in commit messages or review notes.
 
 Before submitting changes, verify that the project still works according to the available setup and usage instructions.
+
+## Maintenance
+
+Keep this README accurate as the project develops.
+
+Remove outdated instructions when tools, commands, or dependencies change.
+
+Add examples only when they reflect verified project behavior.
