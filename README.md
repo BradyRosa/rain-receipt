@@ -149,3 +149,11 @@ Keep this README accurate as the project develops.
 Remove outdated instructions when tools, commands, or dependencies change.
 
 Add examples only when they reflect verified project behavior.
+
+Keep setup and usage sections simple enough for new contributors to follow.
+
+## License
+
+No license information was provided in the original README.
+
+If a license file is added to the repository, refer to that file for the project license terms.
