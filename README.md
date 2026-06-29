@@ -21,3 +21,12 @@ Because the implementation may change over time, the files in the repository sho
 - README organized around setup, usage, contribution, and maintenance guidance.
 
 ## Repository
+
+GitHub:
+
+https://github.com/BradyRosa/rain-receipt.git
+
+Clone URL:
+
+```sh
+https://github.com/BradyRosa/rain-receipt.git
