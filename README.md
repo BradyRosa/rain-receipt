@@ -70,3 +70,11 @@ Common files to look for include:
 Install dependencies using the toolchain indicated by the files present in the repository.
 
 If no dependency file is present, the project may not require a setup step yet.
+
+If an environment example file is included, copy it to the appropriate local configuration file and fill in any required values.
+
+## Usage
+
+Start by reviewing the main source files, scripts, and configuration files in the repository.
+
+If a run command is documented in the project files, run it from the repository root unless otherwise specified.
