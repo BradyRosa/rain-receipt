@@ -93,3 +93,11 @@ git log --oneline
 
 ```sh
 find . -maxdepth 2 -type f
+```
+
+## Suggested Workflow
+
+1. Clone the repository.
+2. Create a new branch for your work.
+3. Make focused changes.
+4. Verify the changes using the appropriate project tools.
