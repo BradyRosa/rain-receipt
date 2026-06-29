@@ -38,3 +38,10 @@ Clone the repository to your local machine:
 
 ```sh
 git clone https://github.com/BradyRosa/rain-receipt.git
+```
+
+Move into the project directory:
+
+```sh
+cd rain-receipt
+```
