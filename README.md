@@ -78,3 +78,10 @@ If an environment example file is included, copy it to the appropriate local con
 Start by reviewing the main source files, scripts, and configuration files in the repository.
 
 If a run command is documented in the project files, run it from the repository root unless otherwise specified.
+
+If no run command is documented yet, inspect the source tree to identify the intended entry point.
+
+Helpful commands while exploring the project include:
+
+```sh
+git status
