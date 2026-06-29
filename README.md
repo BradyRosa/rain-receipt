@@ -108,3 +108,11 @@ find . -maxdepth 2 -type f
 ## Development Notes
 
 Keep changes focused and easy to review.
+
+Update this README when setup steps, usage instructions, dependencies, or project behavior change.
+
+Prefer clear commit messages that explain the purpose of each change.
+
+Remove temporary local files before committing.
+
+Avoid committing generated files unless they are intentionally part of the project.
