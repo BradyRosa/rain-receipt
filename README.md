@@ -116,3 +116,12 @@ Prefer clear commit messages that explain the purpose of each change.
 Remove temporary local files before committing.
 
 Avoid committing generated files unless they are intentionally part of the project.
+
+## Project Structure
+
+The exact structure of `rain-receipt` may evolve as the project grows.
+
+Depending on the current implementation, the repository may include:
+
+- Source code files
+- Configuration files
