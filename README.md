@@ -125,3 +125,11 @@ Depending on the current implementation, the repository may include:
 
 - Source code files
 - Configuration files
+- Documentation
+- Tests
+- Build scripts
+- Tooling files
+
+Use the current repository contents as the authoritative reference for project structure.
+
+## Contributing
