@@ -101,3 +101,10 @@ find . -maxdepth 2 -type f
 2. Create a new branch for your work.
 3. Make focused changes.
 4. Verify the changes using the appropriate project tools.
+5. Review modified files before committing.
+6. Commit changes with a clear message.
+7. Push the branch and open a review if applicable.
+
+## Development Notes
+
+Keep changes focused and easy to review.
