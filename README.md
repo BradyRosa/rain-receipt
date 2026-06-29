@@ -85,3 +85,11 @@ Helpful commands while exploring the project include:
 
 ```sh
 git status
+```
+
+```sh
+git log --oneline
+```
+
+```sh
+find . -maxdepth 2 -type f
