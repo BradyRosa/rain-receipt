@@ -53,3 +53,12 @@ find . -maxdepth 2 -type f
 ```
 
 ## Setup
+
+After cloning the repository, check for setup or dependency files that indicate the project鈥檚 tooling.
+
+Common files to look for include:
+
+- `package.json`
+- `requirements.txt`
+- `pyproject.toml`
+- `Cargo.toml`
