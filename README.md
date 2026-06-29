@@ -45,3 +45,11 @@ Move into the project directory:
 ```sh
 cd rain-receipt
 ```
+
+Review the repository contents to understand the current project layout:
+
+```sh
+find . -maxdepth 2 -type f
+```
+
+## Setup
