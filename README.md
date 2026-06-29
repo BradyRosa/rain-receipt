@@ -62,3 +62,11 @@ Common files to look for include:
 - `requirements.txt`
 - `pyproject.toml`
 - `Cargo.toml`
+- `go.mod`
+- `Makefile`
+- `.env.example`
+- Files in a `docs` directory
+
+Install dependencies using the toolchain indicated by the files present in the repository.
+
+If no dependency file is present, the project may not require a setup step yet.
